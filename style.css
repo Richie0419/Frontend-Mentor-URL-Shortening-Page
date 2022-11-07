@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{   
+    width: 100%;
+    padding: 1rem;
+}
+
+.logo{
+    padding-top: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a{
+    color:  hsl(257, 7%, 63%);
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 2rem;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a:hover{
+    color: hsl(257, 27%, 26%);
+}
+
+.login-btn{
+    border: 0;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    margin-right: 2rem;
+    font-size: 15px;
+    color: hsl(257, 7%, 63%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.signup-btn{
+    background-color: hsl(180, 66%, 49%);
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    color:  hsl(0, 0%, 100%);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup-btn:hover{
+    background-color: hsl(197, 100%, 75%);
+}
+
+.hamburger{
+    display: none;
+}
+
+section{
+    padding-bottom: 5rem;
+    padding-left: 7rem;
+    display: flex;
+}
+
+.text-content{
+    padding-top: 5rem;
+}
+
+.image{
+    padding-top: 2rem;
+}
+
+.title{
+    font-size: 4rem;
+    line-height: 1.2;
+    color:  hsl(255, 11%, 22%)
+}
+
+.subtilte{
+    font-size: 1.1rem;
+    width: 65%;
+    color: hsl(257, 7%, 63%);
+    font-weight: 200;
+}
+
+.image img{
+    width: 100%;
+}
+
+.get-btn{
+    background-color: hsl(180, 66%, 49%);
+    padding: 0.6rem 1.8rem;
+    border-radius: 50px;
+    border: 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.get-btn:hover{
+    background-color: hsl(197, 100%, 75%);
+}
+
+.third-phase{
+    background-color: hsl(0, 0%, 75%);
+    padding: 2rem 7rem;
+    position: relative;
+}
+
+.container{
+    background-image: url(images/bg-boost-desktop.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: hsl(257, 27%, 26%);
+    position: absolute;
+    margin: 0 10rem;
+    width: 58%;
+    top: -8%;
+    border-radius: 5px;
+}
+
+.container input{
+    width: 72%;
+    margin: 2.5rem 1.8rem;
+    padding: 0.8rem;
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+}
+
+.short-btn{
+   background-color: hsl(180, 66%, 49%);
+   padding: 0.9rem 2rem;
+   border-radius: 10px;
+   border: 0;
+   font-size: 0.85rem;
+   color: hsl(0, 0%, 100%);
+   cursor: pointer;
+}
+
+.item-container{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.sub-header{
+    color: hsl(255, 11%, 22%);
+    font-size: 2rem;
+    padding-top: 4rem;
+    font-weight: 900;
+}
+
+.details{
+    color: hsl(0, 0%, 6%);
+    font-weight: 200;
+    width: 43%;
+    margin: auto;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.boxes{
+    display: flex;
+    gap: 1.3rem;
+    padding: 4rem 0;
+}
+
+.boxes img{
+    border-radius: 50px;
+    padding: 1rem;
+    background-color: hsl(257, 27%, 26%);
+    margin-right: 13rem;
+    margin-top: -2rem;
+}
+
+.boxes h3{
+    color: hsl(257, 27%, 26%);
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.boxes p{
+    color: hsl(257, 7%, 63%);
+    text-align: left;
+    font-size: 1.05rem;
+    width: 100%;
+    padding: 1rem 0 2rem 0;
+}
+
+.box{
+    padding: 0rem 2rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    height: 10%;
+}
+
+.box:nth-child(2){
+    margin-top: 2rem;
+}
+
+.box:nth-child(3){
+    margin-top: 4rem;
+}
+
+.four-phase{
+    background-image: url(images/bg-boost-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 27%, 26%);
+}
+
+.boost{
+    margin:0 auto;
+}
+
+.boost h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    padding-top: 2.5rem;
+}
+
+.get-btn-1{
+    background-color: hsl(180, 66%, 49%);
+    padding: 1rem 2.5rem;
+    border-radius: 50px;
+    border: 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+footer{
+    background-color: hsl(260, 8%, 14%);
+    padding: 2rem 0;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-logo{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 3rem 0.5rem;
+}
+
+.footer-details{
+    display: inline-block;
+}
+
+.footer-details li{
+    display: block;
+    color: hsl(0, 0%, 75%);
+    margin: 0.9rem 0;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.footer-details li:hover{
+    text-decoration: underline;
+}
+
+.footer-details h5{
+    color: hsl(0, 0%, 100%);
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.footer-details h5:hover{
+    color: hsl(180, 66%, 49%);
+    cursor: pointer;
+}
+
+.social-media img{
+    padding: 3rem 0.5rem;
+    cursor: pointer;
+}
+
+.social-media img:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:1023px){
+    nav ul li a{
+        padding-right: 1rem;
+        margin: 0;
+        font-size: 1.3rem;
+    }
+
+   .login-btn{
+        margin-right: 0;
+   } 
+
+   section{
+        padding: 3rem;
+   }
+
+   .text-content{
+       padding-top: 0;
+   }
+
+   .title{
+    font-size: 3rem;
+   }
+
+   .subtilte{
+        width: 100%;
+        margin-top: 1rem;
+   }
+
+   .image img{
+        width: 100%;
+        margin-top: -3rem;
+   }
+
+   .container{
+        left: 20%;
+        width: 60%;
+        margin-left: 0;
+        margin-top: 3.5rem;
+   }
+
+   .container input{
+        width: 60%;
+   }
+
+   .short-btn{
+        margin-left: -1rem;
+   }
+
+   .sub-header{
+       font-size: 3rem;
+       margin-top: 1rem;
+   }
+
+   .details{
+        width: 100%;
+        font-size: 1.1rem;
+        line-height: 1.4;
+   }
+
+   .boxes{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+   }
+
+   .box img{
+        margin:-2rem auto 0 auto;
+   }
+
+   .box h3{
+       text-align: center;
+       margin-top: 1rem;
+   }
+
+   .box p{
+        width: 100%;
+   }
+}
+
+
+@media only screen and (max-width: 767px){
+    nav ul, .buttons{
+        display: none;
+    }
+
+   header{
+    width: 10%;
+   }
+
+    header{
+        padding: 0.5rem;
+    }
+
+    .logo{
+        margin-left: 20rem;
+    }
+
+    .hamburger{
+        display: block;
+        margin-left: 12rem;
+    }
+
+    .hamburger img{
+        width: 30px;
+    }
+
+    section{
+        flex-direction: column-reverse;
+        padding: 1rem 1rem 10rem 1rem;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 3rem;
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+
+    .subtilte{
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+
+    .get-btn{
+        padding: 1rem 2.5rem;
+    }
+    
+   .container{
+        top: -130px;
+        left: 15px;
+        width: 92%;
+        flex-direction: column;
+    }
+
+    .container input{
+        width: 85%;
+        margin: 0.9rem;
+    }
+
+    .short-btn{
+        width: 85%;
+        margin-bottom: 1rem;
+        margin-left: 0.4rem;
+    }
+
+    .sub-header{
+        font-size: 2rem;
+    }
+
+    .details{
+        font-size: 1.25rem;
+    }
+
+    .third-phase{
+        padding: 0;
+    }
+
+    .box h3{
+        font-weight: 800;
+    }
+
+    .box p{
+        text-align: center;
+        line-height: 1.5;
+        font-size: 1.1rem;
+    }
+
+    .four-phase{
+        padding: 3rem;
+    }
+
+    .boost h2{
+        width: 100%;
+        font-size: 1.7rem;
+    }
+
+    .get-btn-1{
+        width: 70%;
+        margin-left: 0.9rem;
+    }
+
+    footer{
+        padding: 2.5rem 0 0 0;
+    }
+
+    .footer-logo{
+        padding: 0;
+    }
+
+    .footer-menu{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-details h5{
+        font-size: 1.3rem;
+    }
+
+    .footer-details li{
+        font-size: 1.1rem;
+    }
+
+    .social-media img{
+        margin-top: 0;
+    }
+}    
+
+
+
+
+
+
+
